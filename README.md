@@ -16,4 +16,4 @@ STRIKE THROUGH
 ====
 ~~Mistaken text.~~
 
-*Star
+
