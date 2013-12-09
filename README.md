@@ -11,3 +11,7 @@ One para...
 TWO
 ==========
 Two para
+
+STRIKE THROUGH
+====
+~~Mistaken text.~~
