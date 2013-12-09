@@ -15,3 +15,5 @@ Two para
 STRIKE THROUGH
 ====
 ~~Mistaken text.~~
+
+*Star
