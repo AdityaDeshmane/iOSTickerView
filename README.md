@@ -33,19 +33,19 @@ How to use it?
    
    >>Sample code :
    
-   ><pre><code>NSString *text2 = @"Message bigger length than frame.."; //This is your text string</code></pre>
+   ><pre><code>NSString *text = @"Message bigger length than frame.."; //This is your text string</code></pre>
 
   > // Init ticker view with your parameters
    
-   ><pre><code> ADTickerViewController *tickerView2 = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 200, 200, 40)
-                                                                                  textString:text2
+   ><pre><code> ADTickerViewController *tickerView = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 200, 200, 40)
+                                                                                  textString:text
                                                                                     textFont:[UIFont boldSystemFontOfSize:22]
                                                                                    textColor:[UIColor yellowColor]
                                                                           andBackgrountColor:[UIColor redColor]];</code></pre>
                                                                           
   >// Add it to your view
   
-  ><pre><code> [myView addSubview:tickerView2.view];</code></pre>
+  ><pre><code> [myView addSubview:tickerView.view];</code></pre>
 
 ##Other Info : 
 
