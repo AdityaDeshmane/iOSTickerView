@@ -19,7 +19,7 @@ Ticker View
 
 
 
-How to use ?
+How to use it?
 -------------
 
 >
@@ -33,7 +33,7 @@ How to use ?
    
    Sample code :
    
-   >NSString *text2 = @"Message bigger length than frame.."; //This is your text string
+   ><pre><code>NSString *text2 = @"Message bigger length than frame.."; //This is your text string</code></pre>
 
   > // Init ticker view with your parameters
    
@@ -56,7 +56,7 @@ How to use ?
 
 ><li>Xcode : 4 and above (Developed using 5.0.1)</li>
 
-><li>Base SDK : 7.0 (Setting lower will aslo work)</li>
+><li>Base SDK : 7.0 (Setting lower will also work)</li>
 
 ><li>Uses storybord/xib ? : Ticker View created programmatically, will work with both storybord or xib based project</li>
 
