@@ -25,13 +25,13 @@ How to use it?
 >
 * Add following view controller's files to your project 
 
-   >>A. ADTickerViewController.h
+   >>ADTickerViewController.h
    
-   >>B. ADTickerViewController.m
+   >>ADTickerViewController.m
 
 >* How to use above classes 
    
-   Sample code :
+   >>Sample code :
    
    ><pre><code>NSString *text2 = @"Message bigger length than frame.."; //This is your text string</code></pre>
 
