@@ -30,6 +30,7 @@ How to use ?
    NSString *text2 = @"Message bigger length than frame.."; //This is your text string
 
    // Init ticker view with your parameters
+   
     ADTickerViewController *tickerView2 = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 200, 200, 40)
                                                                                   textString:text2
                                                                                     textFont:[UIFont boldSystemFontOfSize:22]
@@ -37,6 +38,7 @@ How to use ?
                                                                           andBackgrountColor:[UIColor redColor]];
                                                                           
   // Add it to your view
+  
   [myView addSubview:tickerView2.view];
 
 
