@@ -52,7 +52,7 @@ How to use it?
 
 ><li>Works for : iOS 4 and above</li>
 
-><li>Uses ARC : Yes</li>
+><li>Uses ARC : Yes (Not much code you can easily convert to Non Arc)</li>
 
 ><li>Xcode : 4 and above (Developed using 5.0.1)</li>
 
