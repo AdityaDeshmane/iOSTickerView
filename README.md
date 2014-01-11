@@ -1,6 +1,10 @@
 Ticker View
 ===========
 
+![      ](\GIF_OF_SAMPLE_OUTPUT.gif "")
+
+
+######*NOTE : This gif is just for sample output purpose, it is created from simulator screenshots, Actual animations are smoother that this..
 
 ##About 
 
