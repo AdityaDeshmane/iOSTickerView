@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F11303189E75AC00E98C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11302189E75AC00E98C58 /* Foundation.framework */; };
+		B2F11305189E75AC00E98C58 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11304189E75AC00E98C58 /* CoreGraphics.framework */; };
+		B2F11307189E75AC00E98C58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11306189E75AC00E98C58 /* UIKit.framework */; };
+		B2F1130D189E75AC00E98C58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F1130B189E75AC00E98C58 /* InfoPlist.strings */; };
+		B2F1130F189E75AC00E98C58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F1130E189E75AC00E98C58 /* main.m */; };
+		B2F11313189E75AC00E98C58 /* ADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F11312189E75AC00E98C58 /* ADAppDelegate.m */; };
+		B2F11316189E75AC00E98C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F11314189E75AC00E98C58 /* Main.storyboard */; };
+		B2F11319189E75AC00E98C58 /* ADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F11318189E75AC00E98C58 /* ADViewController.m */; };
+		B2F1131B189E75AC00E98C58 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F1131A189E75AC00E98C58 /* Images.xcassets */; };
+		B2F11322189E75AC00E98C58 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11321189E75AC00E98C58 /* XCTest.framework */; };
+		B2F11323189E75AC00E98C58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11302189E75AC00E98C58 /* Foundation.framework */; };
+		B2F11324189E75AC00E98C58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11306189E75AC00E98C58 /* UIKit.framework */; };
+		B2F1132C189E75AC00E98C58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F1132A189E75AC00E98C58 /* InfoPlist.strings */; };
+		B2F1132E189E75AC00E98C58 /* TickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F1132D189E75AC00E98C58 /* TickerViewDemoTests.m */; };
+		B2F1133A189E765200E98C58 /* ADTickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F11339189E765200E98C58 /* ADTickerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F11325189E75AC00E98C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F112F7189E75AC00E98C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F112FE189E75AC00E98C58;
+			remoteInfo = TickerViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F112FF189E75AC00E98C58 /* TickerViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TickerViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F11302189E75AC00E98C58 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B2F11304189E75AC00E98C58 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B2F11306189E75AC00E98C58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B2F1130A189E75AC00E98C58 /* TickerViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerViewDemo-Info.plist"; sourceTree = "<group>"; };
+		B2F1130C189E75AC00E98C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2F1130E189E75AC00E98C58 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2F11310189E75AC00E98C58 /* TickerViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TickerViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		B2F11311189E75AC00E98C58 /* ADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADAppDelegate.h; sourceTree = "<group>"; };
+		B2F11312189E75AC00E98C58 /* ADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADAppDelegate.m; sourceTree = "<group>"; };
+		B2F11315189E75AC00E98C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F11317189E75AC00E98C58 /* ADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADViewController.h; sourceTree = "<group>"; };
+		B2F11318189E75AC00E98C58 /* ADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewController.m; sourceTree = "<group>"; };
+		B2F1131A189E75AC00E98C58 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B2F11320189E75AC00E98C58 /* TickerViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TickerViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F11321189E75AC00E98C58 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B2F11329189E75AC00E98C58 /* TickerViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerViewDemoTests-Info.plist"; sourceTree = "<group>"; };
+		B2F1132B189E75AC00E98C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B2F1132D189E75AC00E98C58 /* TickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerViewDemoTests.m; sourceTree = "<group>"; };
+		B2F11338189E765200E98C58 /* ADTickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerViewController.h; sourceTree = "<group>"; };
+		B2F11339189E765200E98C58 /* ADTickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F112FC189E75AC00E98C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F11305189E75AC00E98C58 /* CoreGraphics.framework in Frameworks */,
+				B2F11307189E75AC00E98C58 /* UIKit.framework in Frameworks */,
+				B2F11303189E75AC00E98C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F1131D189E75AC00E98C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F11322189E75AC00E98C58 /* XCTest.framework in Frameworks */,
+				B2F11324189E75AC00E98C58 /* UIKit.framework in Frameworks */,
+				B2F11323189E75AC00E98C58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F112F6189E75AC00E98C58 = {
+			isa = PBXGroup;
+			children = (
+				B2F11308189E75AC00E98C58 /* TickerViewDemo */,
+				B2F11327189E75AC00E98C58 /* TickerViewDemoTests */,
+				B2F11301189E75AC00E98C58 /* Frameworks */,
+				B2F11300189E75AC00E98C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F11300189E75AC00E98C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F112FF189E75AC00E98C58 /* TickerViewDemo.app */,
+				B2F11320189E75AC00E98C58 /* TickerViewDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F11301189E75AC00E98C58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F11302189E75AC00E98C58 /* Foundation.framework */,
+				B2F11304189E75AC00E98C58 /* CoreGraphics.framework */,
+				B2F11306189E75AC00E98C58 /* UIKit.framework */,
+				B2F11321189E75AC00E98C58 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2F11308189E75AC00E98C58 /* TickerViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B2F11337189E765200E98C58 /* TickerViewController */,
+				B2F11311189E75AC00E98C58 /* ADAppDelegate.h */,
+				B2F11312189E75AC00E98C58 /* ADAppDelegate.m */,
+				B2F11314189E75AC00E98C58 /* Main.storyboard */,
+				B2F11317189E75AC00E98C58 /* ADViewController.h */,
+				B2F11318189E75AC00E98C58 /* ADViewController.m */,
+				B2F1131A189E75AC00E98C58 /* Images.xcassets */,
+				B2F11309189E75AC00E98C58 /* Supporting Files */,
+			);
+			path = TickerViewDemo;
+			sourceTree = "<group>";
+		};
+		B2F11309189E75AC00E98C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F1130A189E75AC00E98C58 /* TickerViewDemo-Info.plist */,
+				B2F1130B189E75AC00E98C58 /* InfoPlist.strings */,
+				B2F1130E189E75AC00E98C58 /* main.m */,
+				B2F11310189E75AC00E98C58 /* TickerViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2F11327189E75AC00E98C58 /* TickerViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F1132D189E75AC00E98C58 /* TickerViewDemoTests.m */,
+				B2F11328189E75AC00E98C58 /* Supporting Files */,
+			);
+			path = TickerViewDemoTests;
+			sourceTree = "<group>";
+		};
+		B2F11328189E75AC00E98C58 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F11329189E75AC00E98C58 /* TickerViewDemoTests-Info.plist */,
+				B2F1132A189E75AC00E98C58 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2F11337189E765200E98C58 /* TickerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B2F11338189E765200E98C58 /* ADTickerViewController.h */,
+				B2F11339189E765200E98C58 /* ADTickerViewController.m */,
+			);
+			path = TickerViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F112FE189E75AC00E98C58 /* TickerViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F11331189E75AC00E98C58 /* Build configuration list for PBXNativeTarget "TickerViewDemo" */;
+			buildPhases = (
+				B2F112FB189E75AC00E98C58 /* Sources */,
+				B2F112FC189E75AC00E98C58 /* Frameworks */,
+				B2F112FD189E75AC00E98C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TickerViewDemo;
+			productName = TickerViewDemo;
+			productReference = B2F112FF189E75AC00E98C58 /* TickerViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F1131F189E75AC00E98C58 /* TickerViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F11334189E75AC00E98C58 /* Build configuration list for PBXNativeTarget "TickerViewDemoTests" */;
+			buildPhases = (
+				B2F1131C189E75AC00E98C58 /* Sources */,
+				B2F1131D189E75AC00E98C58 /* Frameworks */,
+				B2F1131E189E75AC00E98C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F11326189E75AC00E98C58 /* PBXTargetDependency */,
+			);
+			name = TickerViewDemoTests;
+			productName = TickerViewDemoTests;
+			productReference = B2F11320189E75AC00E98C58 /* TickerViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F112F7189E75AC00E98C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AD;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Aditya Deshmane";
+				TargetAttributes = {
+					B2F1131F189E75AC00E98C58 = {
+						TestTargetID = B2F112FE189E75AC00E98C58;
+					};
+				};
+			};
+			buildConfigurationList = B2F112FA189E75AC00E98C58 /* Build configuration list for PBXProject "TickerViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F112F6189E75AC00E98C58;
+			productRefGroup = B2F11300189E75AC00E98C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F112FE189E75AC00E98C58 /* TickerViewDemo */,
+				B2F1131F189E75AC00E98C58 /* TickerViewDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F112FD189E75AC00E98C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F1131B189E75AC00E98C58 /* Images.xcassets in Resources */,
+				B2F1130D189E75AC00E98C58 /* InfoPlist.strings in Resources */,
+				B2F11316189E75AC00E98C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F1131E189E75AC00E98C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F1132C189E75AC00E98C58 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F112FB189E75AC00E98C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F1130F189E75AC00E98C58 /* main.m in Sources */,
+				B2F1133A189E765200E98C58 /* ADTickerViewController.m in Sources */,
+				B2F11319189E75AC00E98C58 /* ADViewController.m in Sources */,
+				B2F11313189E75AC00E98C58 /* ADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F1131C189E75AC00E98C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F1132E189E75AC00E98C58 /* TickerViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F11326189E75AC00E98C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F112FE189E75AC00E98C58 /* TickerViewDemo */;
+			targetProxy = B2F11325189E75AC00E98C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F1130B189E75AC00E98C58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F1130C189E75AC00E98C58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B2F11314189E75AC00E98C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F11315189E75AC00E98C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F1132A189E75AC00E98C58 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F1132B189E75AC00E98C58 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F1132F189E75AC00E98C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2F11330189E75AC00E98C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F11332189E75AC00E98C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerViewDemo/TickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TickerViewDemo/TickerViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B2F11333189E75AC00E98C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerViewDemo/TickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TickerViewDemo/TickerViewDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B2F11335189E75AC00E98C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TickerViewDemo.app/TickerViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerViewDemo/TickerViewDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TickerViewDemoTests/TickerViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B2F11336189E75AC00E98C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TickerViewDemo.app/TickerViewDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TickerViewDemo/TickerViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "TickerViewDemoTests/TickerViewDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F112FA189E75AC00E98C58 /* Build configuration list for PBXProject "TickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F1132F189E75AC00E98C58 /* Debug */,
+				B2F11330189E75AC00E98C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F11331189E75AC00E98C58 /* Build configuration list for PBXNativeTarget "TickerViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F11332189E75AC00E98C58 /* Debug */,
+				B2F11333189E75AC00E98C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B2F11334189E75AC00E98C58 /* Build configuration list for PBXNativeTarget "TickerViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F11335189E75AC00E98C58 /* Debug */,
+				B2F11336189E75AC00E98C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2F112F7189E75AC00E98C58 /* Project object */;
+}
