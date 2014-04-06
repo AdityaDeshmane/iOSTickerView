@@ -30,7 +30,7 @@ How to use it?
 -------------
 
 >
-* Add following view controller's files to your project 
+* Add following class files to your project 
 
    >>ADTicker.h
    
@@ -44,10 +44,10 @@ How to use it?
 
   > // Init ticker view with frame (if you are using outlet of view, use that as tickerView)
    
-   ><pre><code> UIView *tickerView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 200, 20)];
+   ><pre><code> UIView *tickerView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 200, 20)];</code></pre>
 
-//Configure ticker
-[ADTicker addTickerInView:tickerView
+ > // Configure ticker
+   ><pre><code> [ADTicker addTickerInView:tickerView
                                  textString:text
                                    textFont:[UIFont systemFontOfSize:10]
                                   textColor:[UIColor whiteColor]
