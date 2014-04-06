@@ -21,7 +21,7 @@
 		B2F11324189E75AC00E98C58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F11306189E75AC00E98C58 /* UIKit.framework */; };
 		B2F1132C189E75AC00E98C58 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2F1132A189E75AC00E98C58 /* InfoPlist.strings */; };
 		B2F1132E189E75AC00E98C58 /* TickerViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F1132D189E75AC00E98C58 /* TickerViewDemoTests.m */; };
-		B2F1133A189E765200E98C58 /* ADTickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F11339189E765200E98C58 /* ADTickerViewController.m */; };
+		B2F1133A189E765200E98C58 /* ADTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F11339189E765200E98C58 /* ADTicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		B2F11329189E75AC00E98C58 /* TickerViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TickerViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		B2F1132B189E75AC00E98C58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2F1132D189E75AC00E98C58 /* TickerViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TickerViewDemoTests.m; sourceTree = "<group>"; };
-		B2F11338189E765200E98C58 /* ADTickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTickerViewController.h; sourceTree = "<group>"; };
-		B2F11339189E765200E98C58 /* ADTickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTickerViewController.m; sourceTree = "<group>"; };
+		B2F11338189E765200E98C58 /* ADTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTicker.h; sourceTree = "<group>"; };
+		B2F11339189E765200E98C58 /* ADTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		B2F11337189E765200E98C58 /* TickerViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B2F11338189E765200E98C58 /* ADTickerViewController.h */,
-				B2F11339189E765200E98C58 /* ADTickerViewController.m */,
+				B2F11338189E765200E98C58 /* ADTicker.h */,
+				B2F11339189E765200E98C58 /* ADTicker.m */,
 			);
 			path = TickerViewController;
 			sourceTree = "<group>";
@@ -264,7 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F1130F189E75AC00E98C58 /* main.m in Sources */,
-				B2F1133A189E765200E98C58 /* ADTickerViewController.m in Sources */,
+				B2F1133A189E765200E98C58 /* ADTicker.m in Sources */,
 				B2F11319189E75AC00E98C58 /* ADViewController.m in Sources */,
 				B2F11313189E75AC00E98C58 /* ADAppDelegate.m in Sources */,
 			);
@@ -477,6 +477,7 @@
 				B2F11333189E75AC00E98C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2F11334189E75AC00E98C58 /* Build configuration list for PBXNativeTarget "TickerViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +486,7 @@
 				B2F11336189E75AC00E98C58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

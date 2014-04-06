@@ -10,7 +10,7 @@
 
 
 //Step 1/3 - Import ticker view cotroller
-#import "ADTickerViewController.h"
+#import "ADTicker.h"
 
 
 @interface ADViewController ()
@@ -26,29 +26,38 @@
     
     //Step 2/3 - Configure
     NSString *text = @"String shorter than label width";
-    ADTickerViewController *tickerView = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 100, 200, 20)
-                                                                                  textString:text
-                                                                                    textFont:[UIFont systemFontOfSize:10]
-                                                                                   textColor:[UIColor whiteColor]
-                                                                          andBackgrountColor:[UIColor grayColor]];
-    //Step 3/3 - Add as subview
-    [self.view addSubview:tickerView.view];
+    UIView *tickerView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 200, 20)];
     
+    [ADTicker addTickerInView:tickerView
+                                 textString:text
+                                   textFont:[UIFont systemFontOfSize:10]
+                                  textColor:[UIColor whiteColor]
+                         andBackgrountColor:[UIColor grayColor]];
+    
+    //Step 3/3 - Add as subview
+    [self.view addSubview:tickerView];
+    
+    
+    
+    /* TWO MORE EXAMPLES */
     NSString *text2 = @"Message bigger length than frame..";
-    ADTickerViewController *tickerView2 = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 200, 200, 40)
-                                                                                   textString:text2
-                                                                                     textFont:[UIFont boldSystemFontOfSize:22]
-                                                                                    textColor:[UIColor yellowColor]
-                                                                           andBackgrountColor:[UIColor redColor]];
-    [self.view addSubview:tickerView2.view];
+    UIView *tickerView2 = [[UIView alloc] initWithFrame:CGRectMake(10, 200, 200, 40)];
+
+    [ADTicker addTickerInView:tickerView2 textString:text2
+                                   textFont:[UIFont boldSystemFontOfSize:22]
+                                  textColor:[UIColor yellowColor]
+                         andBackgrountColor:[UIColor redColor]];
+    [self.view addSubview:tickerView2];
     
     NSString *text3 = @"VERY VERY LONG TEST TEXT MESSAGE WITH ITALICS FONT SIZE 14..";
-    ADTickerViewController *tickerView3 = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 300, 250, 30)
-                                                                                   textString:text3
-                                                                                     textFont:[UIFont italicSystemFontOfSize:14]
-                                                                                    textColor:[UIColor whiteColor]
-                                                                           andBackgrountColor:[UIColor blueColor]];
-    [self.view addSubview:tickerView3.view];
+    UIView *tickerView3 = [[UIView alloc] initWithFrame:CGRectMake(10, 300, 250, 30)];
+
+    [ADTicker addTickerInView:tickerView3
+                                 textString:text3
+                                   textFont:[UIFont italicSystemFontOfSize:14]
+                                  textColor:[UIColor whiteColor]
+                         andBackgrountColor:[UIColor blueColor]];
+    [self.view addSubview:tickerView3];
 }
 
 - (void)didReceiveMemoryWarning

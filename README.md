@@ -14,6 +14,7 @@ Ticker View
 ><p> You need mechanism to show that string in given width, with text string running like animation (TICKER)
 
 ><p>This  is simple and small basic code which lets you achieve that functionality. 
+><p>You need to provide some UIView in which you want to show ticker. (like i have used UIView *tickerView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 200, 20)]; in example to show ticker in it..)
 
 ## Where i can use it ?
 
@@ -31,9 +32,9 @@ How to use it?
 >
 * Add following view controller's files to your project 
 
-   >>ADTickerViewController.h
+   >>ADTicker.h
    
-   >>ADTickerViewController.m
+   >>ADTicker.m
 
 >* How to use above classes 
    
@@ -41,17 +42,22 @@ How to use it?
    
    ><pre><code>NSString *text = @"Message bigger length than frame.."; //This is your text string</code></pre>
 
-  > // Init ticker view with your parameters
+  > // Init ticker view with frame (if you are using outlet of view, use that as tickerView)
    
-   ><pre><code> ADTickerViewController *tickerView = [[ADTickerViewController alloc] initTickerWithFrame:CGRectMake(10, 200, 200, 40)
-                                                                                  textString:text
-                                                                                    textFont:[UIFont boldSystemFontOfSize:22]
-                                                                                   textColor:[UIColor yellowColor]
-                                                                          andBackgrountColor:[UIColor redColor]];</code></pre>
+   ><pre><code> UIView *tickerView = [[UIView alloc] initWithFrame:CGRectMake(10, 100, 200, 20)];
+
+//Configure ticker
+[ADTicker addTickerInView:tickerView
+                                 textString:text
+                                   textFont:[UIFont systemFontOfSize:10]
+                                  textColor:[UIColor whiteColor]
+                         andBackgrountColor:[UIColor grayColor]];
+
+</code></pre>
                                                                           
   >// Add it to your view
   
-  ><pre><code> [myView addSubview:tickerView.view];</code></pre>
+  ><pre><code> [myView addSubview:tickerView];</code></pre>
 
 ##Other Info : 
 
