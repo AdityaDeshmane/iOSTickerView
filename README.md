@@ -3,7 +3,7 @@ Ticker View
 
 ######*NOTE : This gif is just for sample output purpose, it is created from simulator screenshots, Actual animations are smoother that this..
 
-![      ](\GIF_OF_SAMPLE_OUTPUT.gif "")
+![      ](/GIF_OF_SAMPLE_OUTPUT.gif "")
 
 
 
